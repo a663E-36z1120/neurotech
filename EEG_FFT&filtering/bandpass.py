@@ -1,8 +1,6 @@
 from pylsl import StreamInlet, resolve_byprop
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-from scipy.fftpack import fft, fftfreq
-import numpy as np
 
 from scipy.signal import butter, filtfilt
 

@@ -75,4 +75,4 @@ def animate(i):
 
 anim = FuncAnimation(plt.gcf(), animate)
 
-fig.show()
+plt.show()
